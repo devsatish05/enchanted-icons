@@ -14,12 +14,13 @@
  * ======================================================================== */
 
 /* auto generated file - do not edit */
+import * as React from 'react';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 import {
   createSvgIcon,
   IIconAttrs,
   IIconContent,
 } from '../../../../../../utils';
-import type { SvgIconProps } from '@mui/material/SvgIcon';
 
 const attrs: IIconAttrs = {
   xmlns: 'http://www.w3.org/2000/svg',

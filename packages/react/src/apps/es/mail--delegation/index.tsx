@@ -14,8 +14,9 @@
  * ======================================================================== */
 
 /* auto generated file - do not edit */
-import { createSvgIcon, IIconAttrs, IIconContent } from '../../../utils';
+import * as React from 'react';
 import type { SvgIconProps } from '@mui/material/SvgIcon';
+import { createSvgIcon, IIconAttrs, IIconContent } from '../../../utils';
 
 const attrs: IIconAttrs = {
   width: 20,
