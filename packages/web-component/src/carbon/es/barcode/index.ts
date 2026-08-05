@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-barcode`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M2 6H4V28H2zM12 6H14V26H12zM6 6H10V26H6zM16 6H20V26H16zM22 6H26V26H22zM28 6H30V28H28z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M2 6H4V28H2z" /><path d="M12 6H14V26H12z" /><path d="M6 6H10V26H6z" /><path d="M16 6H20V26H16z" /><path d="M22 6H26V26H22z" /><path d="M28 6H30V28H28z" /></svg>`;
   }
 }
 

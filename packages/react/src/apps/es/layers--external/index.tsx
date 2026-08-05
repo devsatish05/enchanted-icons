@@ -15,6 +15,7 @@
 
 /* auto generated file - do not edit */
 import { createSvgIcon, IIconAttrs, IIconContent } from '../../../utils';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
 const attrs: IIconAttrs = {
   width: 16,
@@ -54,4 +55,9 @@ const content: IIconContent[] = [
   },
 ];
 
-export default createSvgIcon('layers--external', 16, content, attrs);
+export default createSvgIcon(
+  'layers--external',
+  16,
+  content,
+  attrs,
+) as React.FC<SvgIconProps>;

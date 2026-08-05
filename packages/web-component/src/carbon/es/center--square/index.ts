@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-center-square`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M6 12L4 12 4 4 12 4 12 6 6 6 6 12zM28 12L26 12 26 6 20 6 20 4 28 4 28 12zM12 28L4 28 4 20 6 20 6 26 12 26 12 28zM28 28L20 28 20 26 26 26 26 20 28 20 28 28zM15 10H17V14H15zM10 15H14V17H10zM18 15H22V17H18zM15 18H17V22H15z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M6 12 4 12 4 4 12 4 12 6 6 6 6 12z" /><path d="M28 12 26 12 26 6 20 6 20 4 28 4 28 12z" /><path d="M12 28 4 28 4 20 6 20 6 26 12 26 12 28z" /><path d="M28 28 20 28 20 26 26 26 26 20 28 20 28 28z" /><path d="M15 10H17V14H15z" /><path d="M10 15H14V17H10z" /><path d="M18 15H22V17H18z" /><path d="M15 18H17V22H15z" /></svg>`;
   }
 }
 

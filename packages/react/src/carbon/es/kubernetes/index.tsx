@@ -16,5 +16,6 @@
 /* auto generated file - do not edit */
 import Icon from '@carbon/icons/es/kubernetes/32';
 import { createSvgIcon } from '../../../utils';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
-export default createSvgIcon(Icon.name, Icon.size, Icon.content, Icon.attrs);
+export default createSvgIcon(Icon.name, Icon.size, Icon.content, Icon.attrs) as React.FC<SvgIconProps>;

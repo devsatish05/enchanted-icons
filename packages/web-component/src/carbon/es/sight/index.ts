@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-sight`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M10 12H12V14H10zM6 12H8V14H6zM2 12H4V14H2zM26 30H24V27H20a5.0055 5.0055 0 01-5-5V20.7207l-2.3162-.772a1 1 0 01-.5412-1.4631L15 13.7229V11a9.01 9.01 0 019-9h5V4H24a7.0078 7.0078 0 00-7 7v3a.9991.9991 0 01-.1426.5144l-2.3586 3.9312 1.8174.6057A1 1 0 0117 20v2a3.0033 3.0033 0 003 3h5a1 1 0 011 1z" /><path d="M19 12H23V14H19z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M10 12H12V14H10z" /><path d="M6 12H8V14H6z" /><path d="M2 12H4V14H2z" /><path d="M26,30H24V27H20a5.0055,5.0055,0,0,1-5-5V20.7207l-2.3162-.772a1,1,0,0,1-.5412-1.4631L15,13.7229V11a9.01,9.01,0,0,1,9-9h5V4H24a7.0078,7.0078,0,0,0-7,7v3a.9991.9991,0,0,1-.1426.5144l-2.3586,3.9312,1.8174.6057A1,1,0,0,1,17,20v2a3.0033,3.0033,0,0,0,3,3h5a1,1,0,0,1,1,1Z" /><path d="M19 12H23V14H19z" /></svg>`;
   }
 }
 

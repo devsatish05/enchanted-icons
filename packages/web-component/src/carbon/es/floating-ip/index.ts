@@ -23,7 +23,7 @@ export const ICON_NAME = `${ICON_PREFIX}icon-floating-ip`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */

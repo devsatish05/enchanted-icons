@@ -58,8 +58,9 @@ ${copyrightLine}
 /* auto generated file - do not edit */
 import Icon from '${iconImportPath}';
 import { createSvgIcon } from '${utilsImport}';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
-export default createSvgIcon(Icon.name, Icon.size, Icon.content, Icon.attrs);
+export default createSvgIcon(Icon.name, Icon.size, Icon.content, Icon.attrs) as React.FC<SvgIconProps>;
 `;
 };
 
@@ -202,12 +203,13 @@ ${copyrightLine}
 
 /* auto generated file - do not edit */
 import { createSvgIcon, IIconAttrs, IIconContent } from '${utilsImportPath}';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
 const attrs: IIconAttrs = ${attrsString};
 
 const content: IIconContent[] = ${contentString};
 
-export default createSvgIcon('${iconName}', ${size}, content, attrs);
+export default createSvgIcon('${iconName}', ${size}, content, attrs) as React.FC<SvgIconProps>;
 `;
 };
 

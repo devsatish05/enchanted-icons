@@ -1,0 +1,42 @@
+/* ======================================================================== *
+ * Copyright 2026 HCL America Inc.                                          *
+ * Licensed under the Apache License, Version 2.0 (the "License");          *
+ * you may not use this file except in compliance with the License.         *
+ * You may obtain a copy of the License at                                  *
+ *                                                                          *
+ * http://www.apache.org/licenses/LICENSE-2.0                               *
+ *                                                                          *
+ * Unless required by applicable law or agreed to in writing, software      *
+ * distributed under the License is distributed on an "AS IS" BASIS,        *
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. *
+ * See the License for the specific language governing permissions and      *
+ * limitations under the License.                                           *
+ * ======================================================================== */
+
+/* auto generated file - do not edit */
+import { html } from 'lit';
+import { BaseIcon } from '../../../utils/base-icon';
+import { canDefine } from '../../../utils';
+import { ICON_PREFIX } from '../../../utils/tags';
+
+export const ICON_NAME = `${ICON_PREFIX}icon-kubernetes-operator`;
+export class WebComponentIcon extends BaseIcon {
+  render() {
+    /**
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
+     * @carbon/icons is licensed under Apache 2.0.
+     * Source: https://github.com/carbon-design-system/carbon
+     */
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path stroke-width="0" d="m19,21h-6c-1.1028,0-2-.8972-2-2v-6c0-1.1028.8972-2,2-2h6c1.1028,0,2,.8972,2,2v6c0,1.1028-.8972,2-2,2Zm-6-8v6h6v-6h-6Z" /><path stroke-width="0" d="m30,16c0-7.7197-6.2803-14-14-14S2,8.2803,2,16s6.2803,14,14,14c2.7773,0,5.417-.7959,7.7012-2.3081.3948.1914.8315.3081,1.2988.3081,1.6543,0,3-1.3457,3-3,0-.4673-.1167-.9043-.3079-1.2988,1.5122-2.2842,2.3079-4.9238,2.3079-7.7012Zm-26,0c0-6.6167,5.3833-12,12-12s12,5.3833,12,12c0,2.248-.6152,4.3877-1.7744,6.2681-.375-.1689-.7881-.2681-1.2256-.2681-1.6543,0-3,1.3457-3,3,0,.4375.0991.8506.2681,1.2256-1.8801,1.1592-4.0198,1.7744-6.2681,1.7744-6.6167,0-12-5.3833-12-12Zm21,10c-.5515,0-1-.4487-1-1s.4485-1,1-1,1,.4487,1,1-.4485,1-1,1Z" /></svg>`;
+  }
+}
+
+if (canDefine && !customElements.get(ICON_NAME)) {
+  customElements.define(ICON_NAME, WebComponentIcon);
+}
+
+declare global {
+  interface HTMLElementTagNameMap {
+    [ICON_NAME]: WebComponentIcon;
+  }
+}

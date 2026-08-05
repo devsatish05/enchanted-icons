@@ -49,11 +49,11 @@ const createElements = (id: string, content: IIconContent[]): React.JSX.Element 
   );
 };
 
-const createSvgIcon = (displayName: string, size: number, content: IIconContent[], attrs: IIconAttrs) => {
+const createSvgIcon = (displayName: string, size: number, content: IIconContent[], attrs: IIconAttrs): React.FC<SvgIconProps> => {
   const Component = React.memo(
     // eslint-why - because ref is a unknown type
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    React.forwardRef<SvgIconProps>((props: SvgIconProps, ref: any) => {
+    React.forwardRef<SVGSVGElement, SvgIconProps>((props, ref) => {
       return (
         // eslint-why Syntax is necessary for implementation
         // eslint-disable-next-line react/jsx-props-no-spreading
@@ -63,7 +63,8 @@ const createSvgIcon = (displayName: string, size: number, content: IIconContent[
       );
     }),
   );
-  return Component as React.ComponentType<SvgIconProps>;
+  Component.displayName = displayName;
+  return Component;
 };
 
 export {

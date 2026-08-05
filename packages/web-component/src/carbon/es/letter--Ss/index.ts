@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-letter-ss`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M22 23H17V21h5V19H19a2 2 0 01-2-2V15a2 2 0 012-2h5v2H19v2h3a2 2 0 012 2v2A2 2 0 0122 23zM13 23H7V21h6V17H9a2 2 0 01-2-2V11A2 2 0 019 9h6v2H9v4h4a2 2 0 012 2v4A2 2 0 0113 23z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M22,23H17V21h5V19H19a2,2,0,0,1-2-2V15a2,2,0,0,1,2-2h5v2H19v2h3a2,2,0,0,1,2,2v2A2,2,0,0,1,22,23Z" /><path d="M13,23H7V21h6V17H9a2,2,0,0,1-2-2V11A2,2,0,0,1,9,9h6v2H9v4h4a2,2,0,0,1,2,2v4A2,2,0,0,1,13,23Z" /></svg>`;
   }
 }
 

@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-letter-ll`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M11 21L11 9 9 9 9 23 17 23 17 21 11 21zM23 23H21a2 2 0 01-2-2V9h2V21h2z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M11 21 11 9 9 9 9 23 17 23 17 21 11 21z" /><path d="M23,23H21a2,2,0,0,1-2-2V9h2V21h2Z" /></svg>`;
   }
 }
 

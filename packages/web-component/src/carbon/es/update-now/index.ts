@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-update-now`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M27 25.586L25 23.586 25 21 23 21 23 24.414 25.586 27 27 25.586z" /><path d="M24 31a7 7 0 117-7A7.0078 7.0078 0 0124 31zm0-12a5 5 0 105 5A5.0055 5.0055 0 0024 19zM16 28A12.0134 12.0134 0 014 16H2A14.0158 14.0158 0 0016 30zM12 8H7.0784A11.9843 11.9843 0 0128 16h2A13.9778 13.9778 0 006 6.2344V2H4v8h8z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M27 25.586 25 23.586 25 21 23 21 23 24.414 25.586 27 27 25.586z" /><path d="M24,31a7,7,0,1,1,7-7A7.0078,7.0078,0,0,1,24,31Zm0-12a5,5,0,1,0,5,5A5.0055,5.0055,0,0,0,24,19Z" /><path d="M16,28A12.0134,12.0134,0,0,1,4,16H2A14.0158,14.0158,0,0,0,16,30Z" /><path d="M12,8H7.0784A11.9843,11.9843,0,0,1,28,16h2A13.9778,13.9778,0,0,0,6,6.2344V2H4v8h8Z" /></svg>`;
   }
 }
 

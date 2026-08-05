@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-temperature`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M13 17.26V6A4 4 0 005 6V17.26a7 7 0 108 0zM9 4a2 2 0 012 2v7H7V6A2 2 0 019 4zM9 28a5 5 0 01-2.5-9.33l.5-.28V15h4v3.39l.5.28A5 5 0 019 28zM20 4H30V6H20zM20 10H27V12H20zM20 16H30V18H20zM20 22H27V24H20z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M13,17.26V6A4,4,0,0,0,5,6V17.26a7,7,0,1,0,8,0ZM9,4a2,2,0,0,1,2,2v7H7V6A2,2,0,0,1,9,4ZM9,28a5,5,0,0,1-2.5-9.33l.5-.28V15h4v3.39l.5.28A5,5,0,0,1,9,28Z" /><path d="M20 4H30V6H20z" /><path d="M20 10H27V12H20z" /><path d="M20 16H30V18H20z" /><path d="M20 22H27V24H20z" /></svg>`;
   }
 }
 

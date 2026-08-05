@@ -15,6 +15,7 @@
 
 /* auto generated file - do not edit */
 import { createSvgIcon, IIconAttrs, IIconContent } from '../../../utils';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
 const attrs: IIconAttrs = {
   xmlns: 'http://www.w3.org/2000/svg',
@@ -216,4 +217,9 @@ const content: IIconContent[] = [
   },
 ];
 
-export default createSvgIcon('layout--off', 24, content, attrs);
+export default createSvgIcon(
+  'layout--off',
+  24,
+  content,
+  attrs,
+) as React.FC<SvgIconProps>;

@@ -15,6 +15,7 @@
 
 /* auto generated file - do not edit */
 import { createSvgIcon, IIconAttrs, IIconContent } from '../../../utils';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
 const attrs: IIconAttrs = {
   width: 32,
@@ -71,4 +72,9 @@ const content: IIconContent[] = [
   },
 ];
 
-export default createSvgIcon('context-preview--view', 32, content, attrs);
+export default createSvgIcon(
+  'context-preview--view',
+  32,
+  content,
+  attrs,
+) as React.FC<SvgIconProps>;

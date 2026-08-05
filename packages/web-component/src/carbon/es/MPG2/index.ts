@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-mpg2`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.27.0.
+     * The following HTML markup was generated using @carbon/icons 11.76.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M32 21H26V17a2.002 2.002 0 012-2h2V13H26V11h4a2.0023 2.0023 0 012 2v2a2.0023 2.0023 0 01-2 2H28v2h4zM24 21H20a2.0023 2.0023 0 01-2-2V13a2.002 2.002 0 012-2h4v2H20v6h2V17H21l0-2h3zM14 11H9V21h2V18h3a2.0027 2.0027 0 002-2V13A2.0023 2.0023 0 0014 11zm-3 5V13h3l.001 3zM7 11L5 11 3.5 15 2 11 0 11 0 21 2 21 2 14 3.5 18 5 14 5 21 7 21 7 11z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M32,21H26V17a2.002,2.002,0,0,1,2-2h2V13H26V11h4a2.0023,2.0023,0,0,1,2,2v2a2.0023,2.0023,0,0,1-2,2H28v2h4Z" /><path d="M24,21H20a2.0023,2.0023,0,0,1-2-2V13a2.002,2.002,0,0,1,2-2h4v2H20v6h2V17H21l0-2h3Z" /><path d="M14,11H9V21h2V18h3a2.0027,2.0027,0,0,0,2-2V13A2.0023,2.0023,0,0,0,14,11Zm-3,5V13h3l.001,3Z" /><path d="M7 11 5 11 3.5 15 2 11 0 11 0 21 2 21 2 14 3.5 18 5 14 5 21 7 21 7 11z" /></svg>`;
   }
 }
 
