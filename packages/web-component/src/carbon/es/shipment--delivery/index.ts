@@ -1,0 +1,42 @@
+/* ======================================================================== *
+ * Copyright 2026 HCL America Inc.                                          *
+ * Licensed under the Apache License, Version 2.0 (the "License");          *
+ * you may not use this file except in compliance with the License.         *
+ * You may obtain a copy of the License at                                  *
+ *                                                                          *
+ * http://www.apache.org/licenses/LICENSE-2.0                               *
+ *                                                                          *
+ * Unless required by applicable law or agreed to in writing, software      *
+ * distributed under the License is distributed on an "AS IS" BASIS,        *
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. *
+ * See the License for the specific language governing permissions and      *
+ * limitations under the License.                                           *
+ * ======================================================================== */
+
+/* auto generated file - do not edit */
+import { html } from 'lit';
+import { BaseIcon } from '../../../utils/base-icon';
+import { canDefine } from '../../../utils';
+import { ICON_PREFIX } from '../../../utils/tags';
+
+export const ICON_NAME = `${ICON_PREFIX}icon-shipment-delivery`;
+export class WebComponentIcon extends BaseIcon {
+  render() {
+    /**
+     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * @carbon/icons is licensed under Apache 2.0.
+     * Source: https://github.com/carbon-design-system/carbon
+     */
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M23,30c-1.8604,0-3.4287-1.2764-3.873-3h-6.2534c-.4453,1.7236-2.0132,3-3.8735,3s-3.4282-1.2764-3.8735-3h-2.1265c-.5522,0-1-.4473-1-1v-8h2v7h1.1265c.4453-1.7236,2.0132-3,3.8735-3s3.4282,1.2764,3.8735,3h6.2534c.2705-1.0488.957-1.9326,1.873-2.4629v-12.5371h-3v-2h4c.5527,0,1,.4478,1,1v2h3c.4004,0,.7617.2383.9189.606l3,7.0005c.0537.124.0811.2578.0811.3936v7c0,.5527-.4473,1-1,1h-2.127c-.4443,1.7236-2.0127,3-3.873,3ZM23,24c-1.1025,0-2,.8975-2,2s.8975,2,2,2,2-.8975,2-2-.8975-2-2-2ZM9,24c-1.103,0-2,.8975-2,2s.897,2,2,2,2-.8975,2-2-.897-2-2-2ZM26.873,25h1.127v-5h-5v2c1.8604,0,3.4287,1.2764,3.873,3ZM23,18h4.4834l-2.1426-5h-2.3408v5ZM9,16c-3.8599,0-7-3.1401-7-7s3.1401-7,7-7,7,3.1401,7,7-3.1401,7-7,7ZM9,4c-2.7568,0-5,2.2432-5,5s2.2432,5,5,5,5-2.2432,5-5-2.2432-5-5-5ZM10.293,11.707l-2-2c-.1875-.1875-.293-.4419-.293-.707v-3h2v2.5859l1.707,1.707-1.4141,1.4141Z" /></svg>`;
+  }
+}
+
+if (canDefine && !customElements.get(ICON_NAME)) {
+  customElements.define(ICON_NAME, WebComponentIcon);
+}
+
+declare global {
+  interface HTMLElementTagNameMap {
+    [ICON_NAME]: WebComponentIcon;
+  }
+}

@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@carbon/icon-helpers": "^10.74.0",
-    "@carbon/icons": "^11.76.0",
+    "@carbon/icons": "^11.83.0",
     "lit": "^3.3.0",
     "lodash": "^4.17.23",
     "stringify-object": "^6.0.0",
