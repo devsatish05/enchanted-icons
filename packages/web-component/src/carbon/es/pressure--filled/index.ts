@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-pressure-filled`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M22,30H10V25H6l10-9,10,9H22Z" /><path d="M16,16,6,7h4V2H22V7h4Z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M22 30H10V25H6l10-9 10 9H22zM16 16L6 7h4V2H22V7h4z" /></svg>`;
   }
 }
 

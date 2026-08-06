@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-list-checked`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M16 22H30V24H16z" /><path d="M14 19.4 12.6 18 6 24.6 3.4 22 2 23.4 6 27.4z" /><path d="M16 8H30V10H16z" /><path d="M14 5.4 12.6 4 6 10.6 3.4 8 2 9.4 6 13.4z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M16 22H30V24H16zM14 19.4L12.6 18 6 24.6 3.4 22 2 23.4 6 27.4zM16 8H30V10H16zM14 5.4L12.6 4 6 10.6 3.4 8 2 9.4 6 13.4z" /></svg>`;
   }
 }
 

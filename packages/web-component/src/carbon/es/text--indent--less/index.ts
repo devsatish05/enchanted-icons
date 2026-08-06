@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-text-indent-less`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M2 6H12V8H2z" /><path d="M5 12H12V14H5z" /><path d="M2 18H12V20H2z" /><path d="M5 24H12V26H5z" /><path d="M16 4H18V28H16z" /><path d="M28.15 23.5 29.56 22.12 23.27 16 29.56 9.88 28.15 8.5 20.44 16 28.15 23.5z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M2 6H12V8H2zM5 12H12V14H5zM2 18H12V20H2zM5 24H12V26H5zM16 4H18V28H16zM28.15 23.5L29.56 22.12 23.27 16 29.56 9.88 28.15 8.5 20.44 16 28.15 23.5z" /></svg>`;
   }
 }
 

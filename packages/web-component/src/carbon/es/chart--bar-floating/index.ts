@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-chart-bar-floating`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M28,24H14V16H28ZM16,22H26V18H16Z" /><path d="M26,12H8V4H26ZM10,10H24V6H10Z" /><path d="M30,30H4a2.0023,2.0023,0,0,1-2-2V2H4V28H30Z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M28 24H14V16H28zM16 22H26V18H16zM26 12H8V4H26zM10 10H24V6H10z" /><path d="M30,30H4a2.0023,2.0023,0,0,1-2-2V2H4V28H30Z" /></svg>`;
   }
 }
 

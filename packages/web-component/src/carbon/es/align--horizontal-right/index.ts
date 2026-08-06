@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-align-horizontal-right`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M4,24V20a2.0023,2.0023,0,0,1,2-2H21a2.0023,2.0023,0,0,1,2,2v4a2.0023,2.0023,0,0,1-2,2H6A2.0023,2.0023,0,0,1,4,24Zm2,0H21V20L6,19.9988Z" /><path d="M12,12V8a2.0023,2.0023,0,0,1,2-2h7a2.0023,2.0023,0,0,1,2,2v4a2.0023,2.0023,0,0,1-2,2H14A2.0023,2.0023,0,0,1,12,12Zm2,0h7V8l-7-.0012Z" /><path d="M26 2H28V30H26z" transform="matrix(-1 0 0 -1 54 32)" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M4 24V20a2.0023 2.0023 0 012-2H21a2.0023 2.0023 0 012 2v4a2.0023 2.0023 0 01-2 2H6A2.0023 2.0023 0 014 24zm2 0H21V20L6 19.9988zM12 12V8a2.0023 2.0023 0 012-2h7a2.0023 2.0023 0 012 2v4a2.0023 2.0023 0 01-2 2H14A2.0023 2.0023 0 0112 12zm2 0h7V8l-7-.0012z" /><path d="M26 2H28V30H26z" transform="rotate(-180 27 16)" /></svg>`;
   }
 }
 

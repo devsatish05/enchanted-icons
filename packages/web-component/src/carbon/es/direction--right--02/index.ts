@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-direction-right-02`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M19,8,17.5859,9.4141,22.1719,14H10a2,2,0,0,0-2,2V28h2V16H22.1719l-4.586,4.5859L19,22l7-7Z" /><path d="M8 4H10V12H8z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M19 8L17.5859 9.4141 22.1719 14H10a2 2 0 00-2 2V28h2V16H22.1719l-4.586 4.5859L19 22l7-7zM8 4H10V12H8z" /></svg>`;
   }
 }
 

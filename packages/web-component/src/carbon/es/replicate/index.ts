@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-replicate`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M28,8h2V4a2.0021,2.0021,0,0,0-2-2H24V4h4Z" /><path d="M17 2H21V4H17z" /><path d="M28 11H30V15H28z" /><path d="M28,18v4H24V10a2.0023,2.0023,0,0,0-2-2H10V4h4V2H10A2.0023,2.0023,0,0,0,8,4V8H4a2.0023,2.0023,0,0,0-2,2V28a2.0023,2.0023,0,0,0,2,2H22a2.0023,2.0023,0,0,0,2-2V24h4a2.0023,2.0023,0,0,0,2-2V18ZM22,28H4V10H22Z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M28 8h2V4a2.0021 2.0021 0 00-2-2H24V4h4zM17 2H21V4H17zM28 11H30V15H28zM28 18v4H24V10a2.0023 2.0023 0 00-2-2H10V4h4V2H10A2.0023 2.0023 0 008 4V8H4a2.0023 2.0023 0 00-2 2V28a2.0023 2.0023 0 002 2H22a2.0023 2.0023 0 002-2V24h4a2.0023 2.0023 0 002-2V18zM22 28H4V10H22z" /></svg>`;
   }
 }
 

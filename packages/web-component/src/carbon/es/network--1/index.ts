@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-network-1`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M16,20a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,16,20Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,16,14Z" /><path d="M5,20a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,5,20Zm0-6a2,2,0,1,0,2,2A2.0023,2.0023,0,0,0,5,14Z" /><path d="M10,31a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,10,31Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,10,25Z" /><path d="M22,31a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,22,31Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,22,25Z" /><path d="M27,20a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,27,20Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,27,14Z" /><path d="M22,9a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,22,9Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,22,3Z" /><path d="M10,9a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,10,9Zm0-6a2,2,0,1,0,2,2A2.0021,2.0021,0,0,0,10,3Z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M16 20a4 4 0 114-4A4.0045 4.0045 0 0116 20zm0-6a2 2 0 102 2A2.0021 2.0021 0 0016 14zM5 20a4 4 0 114-4A4.0045 4.0045 0 015 20zm0-6a2 2 0 102 2A2.0023 2.0023 0 005 14zM10 31a4 4 0 114-4A4.0045 4.0045 0 0110 31zm0-6a2 2 0 102 2A2.0021 2.0021 0 0010 25zM22 31a4 4 0 114-4A4.0045 4.0045 0 0122 31zm0-6a2 2 0 102 2A2.0021 2.0021 0 0022 25zM27 20a4 4 0 114-4A4.0045 4.0045 0 0127 20zm0-6a2 2 0 102 2A2.0021 2.0021 0 0027 14zM22 9a4 4 0 114-4A4.0045 4.0045 0 0122 9zm0-6a2 2 0 102 2A2.0021 2.0021 0 0022 3zM10 9a4 4 0 114-4A4.0045 4.0045 0 0110 9zm0-6a2 2 0 102 2A2.0021 2.0021 0 0010 3z" /></svg>`;
   }
 }
 

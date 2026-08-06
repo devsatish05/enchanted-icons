@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-group-account`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M17,11H11a3,3,0,0,0-3,3v4h2V14a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v1h2V14A3,3,0,0,0,17,11Z" /><path d="M10,6a4,4,0,1,0,4-4A4,4,0,0,0,10,6Zm6,0a2,2,0,1,1-2-2A2,2,0,0,1,16,6Z" /><path d="M22,27H16a2.0021,2.0021,0,0,1-2-2V19a2.0021,2.0021,0,0,1,2-2h6a2.0021,2.0021,0,0,1,2,2v6A2.0021,2.0021,0,0,1,22,27Zm-6-8v6h6V19Z" /><path d="M8,30H4a2.0021,2.0021,0,0,1-2-2V4A2.0021,2.0021,0,0,1,4,2H8V4H4V28H8Z" /><path d="M28,30H24V28h4V4H24V2h4a2.0021,2.0021,0,0,1,2,2V28A2.0021,2.0021,0,0,1,28,30Z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M17 11H11a3 3 0 00-3 3v4h2V14a1 1 0 011-1h6a1 1 0 011 1v1h2V14A3 3 0 0017 11zM10 6a4 4 0 104-4A4 4 0 0010 6zm6 0a2 2 0 11-2-2A2 2 0 0116 6zM22 27H16a2.0021 2.0021 0 01-2-2V19a2.0021 2.0021 0 012-2h6a2.0021 2.0021 0 012 2v6A2.0021 2.0021 0 0122 27zm-6-8v6h6V19zM8 30H4a2.0021 2.0021 0 01-2-2V4A2.0021 2.0021 0 014 2H8V4H4V28H8zM28 30H24V28h4V4H24V2h4a2.0021 2.0021 0 012 2V28A2.0021 2.0021 0 0128 30z" /></svg>`;
   }
 }
 

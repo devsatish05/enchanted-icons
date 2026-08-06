@@ -23,11 +23,11 @@ export const ICON_NAME = `${ICON_PREFIX}icon-list-dropdown`;
 export class WebComponentIcon extends BaseIcon {
   render() {
     /**
-     * The following HTML markup was generated using @carbon/icons 11.85.0.
+     * The following HTML markup was generated using @carbon/icons 11.27.0.
      * @carbon/icons is licensed under Apache 2.0.
      * Source: https://github.com/carbon-design-system/carbon
      */
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M26,6V2H2V12h9V30H30V6ZM4,10V4H24V6H11v4ZM28,28H13V8H28Z" /><path d="M15 11H17V13H15z" /><path d="M19 11H26V13H19z" /><path d="M15 17H17V19H15z" /><path d="M19 17H26V19H19z" /><path d="M15 23H17V25H15z" /><path d="M19 23H26V25H19z" /></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32" height="32" preserveAspectRatio="xMidYMid"><path d="M26,6V2H2V12h9V30H30V6ZM4,10V4H24V6H11v4ZM28,28H13V8H28Z" /><path d="M15 11H17V13H15zM19 11H26V13H19zM15 17H17V19H15zM19 17H26V19H19zM15 23H17V25H15zM19 23H26V25H19z" /></svg>`;
   }
 }
 
